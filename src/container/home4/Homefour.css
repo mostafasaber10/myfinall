@@ -1,0 +1,349 @@
+
+.Lastz{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 40%;
+  
+}
+
+.last{
+  text-align: center;
+    width:700px ;
+    height:1000px;
+     border:3px solid var(--navber-background);
+     position: relative;
+     right: 550px;
+     top: 10px;
+     background-color: var(--border-color);
+  
+}
+
+.last:hover{
+    box-shadow: 0 0 7px 7px var(--navber-background);
+}
+.last::after{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid var(--navber-background); /* لون المثلث */
+  top: -2px; /* تحديد الموقع العمودي */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.lastas{
+  position: relative;
+top: 80px;
+font-weight: bold;
+font-size: 30px;
+}
+.lastas::after{
+  content: "";
+  width: 200px;
+  height: 4px;
+  background-color: var(--navber-background);
+  right: 35%;
+  position: absolute;
+  bottom: -10px;
+}
+.lasta{
+position: relative;
+top: 150px;
+font-weight: bold;
+font-size: 30px;
+}
+.lasta::after{
+  content: "";
+  width: 200px;
+  height: 4px;
+  background-color: var(--navber-background);
+  right: 35%;
+  position: absolute;
+  bottom: -10px;
+}
+
+
+.lasts{
+  position: relative;
+  top: 250px;
+}
+.lasts::after{
+  content: "";
+  width: 150px;
+  height: 4px;
+  background-color: var(--navber-background);
+  right: 39%;
+  position: absolute;
+  bottom: -10px;
+}
+
+.lastd{
+  position: relative;
+  top: 380px;
+  font-weight: bolder;
+  padding: 2px 2px;
+  
+}
+
+
+input {
+  border: none;
+  box-shadow: 0 5px 5px 0 var(--navber-background);
+  background-color: var(--hover-color);
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    outline: none;
+    width: 60%;
+    padding: 5px 3px ;
+    margin: 10px;
+  
+
+}
+
+input:hover{
+  box-shadow: 0 0 1px 1px var(--navber-background);
+}
+
+.emc{
+  position: relative;
+  left: 6px;
+}
+.emca{
+  position: relative;
+  left: 10px;
+}
+.emcs{
+  position: relative;
+  left: 10px;
+}
+
+
+.password-toggle {
+  cursor: pointer;
+  position: relative;
+  left: 40px;
+  
+  
+}
+
+
+.btnx{
+  
+    width: 30%;
+    height: 33px;
+    padding: 5px 0px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+    outline: none;
+    background: var(--navber-background);
+    color: var(--hover-color);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    margin-top: 30px;
+    position: relative;
+    left: 30px;
+    transform: .3s ease-in-out;
+    -webkit-transform: .3s ease-in-out;
+    -moz-transform: .3s ease-in-out;
+    -ms-transform: .3s ease-in-out;
+    -o-transform: .3s ease-in-out;
+}
+.btnx:hover{
+  box-shadow: 0 0 4px 4px var(--navber-background);
+}
+.btnxc{
+  width: 30%;
+  height: 33px;
+  padding: 5px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+  outline: none;
+  background: var(--navber-background);
+  color: var(--hover-color);
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+  margin-top: 30px;
+  
+  transform: .3s ease-in-out;
+  -webkit-transform: .3s ease-in-out;
+  -moz-transform: .3s ease-in-out;
+  -ms-transform: .3s ease-in-out;
+  -o-transform: .3s ease-in-out;
+}
+.btnxc:hover{
+  box-shadow: 0 0 4px 4px var(--navber-background);
+}
+
+
+.lastk{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.lastk a {
+  text-decoration: none;
+  color: var(--navber-background);
+}
+
+
+
+.goo{
+  position: relative;
+  right: 150px;
+  top: 50px;
+  background-color: var(--goo-color);
+  border: none;
+  outline: none;
+  font-size: 30px;
+  text-align: center;
+  color: var(--tit-color);
+}
+.goo:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.fac{
+  position: relative;
+  left: -30px;
+  bottom:0px;
+  
+  width: 250px;
+  height: 150px;
+  color: var(--tit-color);
+  font-size: 18px;
+  text-align: center;
+}
+.fac:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+  .Lastz{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .last {
+    width: 150%; /* Adjust the width for smaller screens */
+    height: 1150px;
+    right: 0; /* Reset right positioning */
+  }
+  .last:hover {
+    box-shadow: 0 0 7px 7px var(--navber-background);
+  }
+  
+
+  .lastas::after{
+    content: "";
+    width: 200px;
+    height: 4px;
+    background-color: var(--navber-background);
+    right: 25%;
+    position: absolute;
+    bottom: -10px;
+  }
+
+
+
+  .lasta::after{
+    content: "";
+    width: 200px;
+    height: 4px;
+    background-color: var(--navber-background);
+    right: 25%;
+    position: absolute;
+    bottom: -10px;
+  }
+
+  .lasts::after{
+    content: "";
+    width: 150px;
+    height: 4px;
+    background-color: var(--navber-background);
+    right: 30%;
+    position: absolute;
+    bottom: -10px;
+  }
+
+  .lasts{
+    position: relative;
+    top: 200px;
+  }
+
+
+  .lastd{
+    position: relative;
+    top: 400px;
+  }
+/* ... (other styles) ... */
+
+.input {
+  width: 100%; /* Make the input fields full-width on smaller screens */
+}
+
+.goo {
+  position: relative;
+  right: 0; /* Reset right positioning */
+  top: 50px; /* Adjust top positioning for smaller screens */
+}
+
+
+.btnx,
+.btnxc {
+  position: relative;
+  width: 100%; /* Make the buttons full-width on smaller screens */
+  left: 0; /* Reset left positioning */
+}
+
+
+.lastk {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive styles for .lastk a */
+.lastk a {
+  text-decoration: none;
+  color: var(--navber-background);
+}
+
+/* ... (other styles) ... */
+
+/* Add responsive styles for .lastk */
+.fac {
+  position: relative;
+  left: -30px; /* Reset left positioning */
+  bottom: -40px; /* Adjust bottom positioning for smaller screens */
+}
+
+
+
+
+
+}
+

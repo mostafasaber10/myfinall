@@ -1,0 +1,1097 @@
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+.tye img{
+  width: 76.9%;
+  height: 45%;
+  position: absolute;
+  right: 19.4rem;
+  top: 0px;
+  opacity: 0.4;
+  
+}
+
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background-color: var(--goto-color);
+    
+  
+    background-size: cover;
+    background-position:100% 100%;
+
+    border-radius: 50%; /* يجعل العنصر دائريًا */
+    text-align: center;
+    color: var(--finl-color);
+    font-size: 18px;
+    padding: 20px;
+    position: relative;
+    right: 70rem;
+    top: 7rem;
+}
+
+.circle:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+.circler{
+  width: 120px;
+  height: 120px;
+  background-color: var(--goto-color);
+  border-radius: 50%; /* يجعل العنصر دائريًا */
+  text-align: center;
+  color: var(--finl-color);
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  right: 50rem;
+    top: -1rem;
+}
+.circler:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+.circlet{
+  width: 120px;
+  height: 120px;
+  background-color: var(--goto-color);
+  color: var(--finl-color);
+  border-radius: 50%; 
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  right: 30rem;
+    top: -8rem;
+}
+.circlet:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+.pa{
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.hglgs{
+  display: flex;
+  position: relative;
+  left: -16.5rem;
+  width: 450px;
+  }
+  
+  
+.htqgs{
+    position: relative;
+    right: 29rem;
+    top: -3rem;
+    font-size: 25px;
+    width: 349px;
+    color: var(--tit-color);
+  }
+  
+  
+.hqws{
+    width:300px ;
+    height:500px;
+     border:3px solid var(--goto-color);
+     position: relative;
+     right: -17rem;
+     top: 3rem;
+     cursor: pointer;
+  }
+  
+.hqws:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+  
+.hqwas{
+    color: var(--tit-color);
+  }
+  
+.aims img{
+  width: 80%;
+  height: 175px;
+  position: relative;
+  right: 30px;
+  top: 50px;
+  }
+  
+.aimhs{
+    position: relative;
+    right: 30px;
+    top: 60px;
+    font-size: 18px;
+    width: 200px;
+  }
+  
+  .aimps{
+    position: relative;
+    right: 20px;
+    top: 70px;
+    width: 280px;
+  }
+  
+  .beds{
+    position: relative;
+    right: 10px;
+    top: 100px;
+  }
+  .wcs{
+    position: relative;
+    right: 160px;
+    top: 75px;
+  }
+  
+  .jtgas{
+    position: relative;
+    right: 40px;
+    top: 90px;
+    border: none;
+    background-color: var(--goto-color);
+    color: var(--finl-color);
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .jtgas:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+  
+  
+  /*  */
+  
+  .fdjas{
+    width:300px ;
+    height:500px;
+     border:3px solid var(--goto-color);
+     position: relative;
+     right: -14rem;
+     top: 3rem;
+     cursor: pointer;
+  }
+  
+  .fdjas:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+  
+  .fdjss{
+    color: var(--tit-color);
+  }
+  
+  
+  .fdjs img{
+    width: 80%;
+    height: 80%;
+  position: relative;
+  right: 30px;
+  top: 50px;
+  }
+  
+  .fdjds{
+  position: relative;
+  top: 60px;
+  font-size: 20px;
+  }
+  
+  .fdjfs{
+    position: relative;
+    top: 80px;
+    width: 280px;
+  }
+  .fdjgs{
+    position: relative;
+    top: 120px;
+    right: 20px;
+  }
+  
+  .wcf{
+    position: relative;
+    top: 95px;
+    right: 170px;
+  }
+  
+  .fdjhs{
+    position: relative;
+    right: 40px;
+    top: 111px;
+    border: none;
+    background-color: var(--goto-color);
+    color: var(--finl-color);
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .fdjhs:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+  
+  
+  
+  
+  /*  */
+  
+  .lifas{
+    width:300px ;
+    height:500px;
+     border:3px solid var(--goto-color);
+     position: relative;
+     right: -12rem;
+     top: 3rem;
+     cursor: pointer;
+  }
+  
+  .lifas:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+  
+  .lifss{
+    color: var(--tit-color);
+  }
+  
+  
+  
+  .ljfs img{
+    width: 80%;
+    height: 175px;
+    position: relative;
+  right: 30px;
+  top: 50px;
+  }
+  
+  .lifds{
+  position: relative;
+    top: 65px;
+    width: 280px;
+    font-size: 20px;
+  }
+  
+  .liffs{
+    position: relative;
+    top: 75px;
+    right: 10px;
+    width: 280px;
+  }
+  
+  .lifgs{
+    position: relative;
+    top: 100px;
+    right: 10px;
+    width: 130px;
+  }
+  
+  .lifhs{
+    position: relative;
+    top: 75px;
+    right: 170px;
+    width: 150px;
+  }
+  
+  
+  .lifjs{
+    position: relative;
+    right: 40px;
+    top: 83px;
+    border: none;
+    background-color: var(--goto-color);
+    color: var(--finl-color);
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .lifjs:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+  /*  */
+
+  .hro{
+    border: 5px solid var(--goto-color);
+    position: relative;
+    top: 6rem;
+    width: 900px;
+    height: 0px;
+    right: 25rem;
+    
+  }
+
+  /*  */
+
+  .uvre{
+    position: relative;
+    top: 6rem;
+    right: 29rem;
+    width: 200px;
+    color: var(--tit-color);
+  }
+  /*  */
+.pgh{
+  display: flex;
+  position: relative;
+  left: -16.5rem;
+  width: 450px;
+}
+
+  .hqw{
+    width:300px ;
+    height:500px;
+     border:3px solid var(--goto-color);
+     position: relative;
+     right: -8rem;
+     top: 10rem;
+     cursor: pointer;
+  }
+  
+.hqw:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+
+  .hqwa{
+    color: var(--tit-color);
+  }
+
+  .aim img{
+    width: 80%;
+    height: 175px;
+    position: relative;
+    right: 30px;
+    top: 50px;
+    }
+    
+  .aimx{
+      position: relative;
+      right: 30px;
+      top: 60px;
+      font-size: 18px;
+      width: 200px;
+    }
+    
+    .aimv{
+      position: relative;
+      right: 20px;
+      top: 70px;
+      width: 280px;
+    }
+    
+    .beo{
+      position: relative;
+      right: 10px;
+      top: 100px;
+    }
+    .wca{
+      position: relative;
+      right: 160px;
+      top: 75px;
+    }
+    
+    .jtga{
+      position: relative;
+      right: 40px;
+      top: 115px;
+      border: none;
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 30px;
+    }
+    
+    .jtga:hover{
+    background: var(--hover-color);
+    color: var(--navber-background);
+    box-shadow: 0 0 5px 5px var(--navber-background);
+    }
+    
+    /*  */
+
+    .fdja{
+      width:300px ;
+      height:500px;
+       border:3px solid var(--goto-color);
+       position: relative;
+       right: -5rem;
+     top: 10rem;
+       cursor: pointer;
+    }
+    
+    .fdja:hover{
+      box-shadow: 0 0 7px 7px var(--goto-color);
+    }
+    
+    .fdjs{
+      color: var(--tit-color);
+    }
+    
+    
+    .fdj img{
+      width: 80%;
+      height: 175px;
+    position: relative;
+    right: 30px;
+    top: 50px;
+    }
+    
+    .fdjd{
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+    }
+    
+    .fdjf{
+      position: relative;
+      top: 80px;
+      width: 280px;
+    }
+    .fdjg{
+      position: relative;
+      top: 100px;
+      right: 20px;
+    }
+    
+    .wcq{
+      position: relative;
+      top: 75px;
+      right: 170px;
+    }
+    
+    .fdjh{
+      position: relative;
+      right: 40px;
+      top: 111px;
+      border: none;
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 30px;
+    }
+    
+    .fdjh:hover{
+    background: var(--hover-color);
+    color: var(--navber-background);
+    box-shadow: 0 0 5px 5px var(--navber-background);
+    }
+
+    /*  */
+    
+    .lifa{
+      width:300px ;
+      height:500px;
+       border:3px solid var(--goto-color);
+       position: relative;
+       right: -3rem;
+     top: 10rem;
+       cursor: pointer;
+    }
+    
+    .lifa:hover{
+      box-shadow: 0 0 7px 7px var(--goto-color);
+    }
+    
+    .lifs{
+      color: var(--tit-color);
+    }
+    
+    
+    
+    .ljf img{
+      width: 80%;
+      height: 175px;
+      position: relative;
+    right: 30px;
+    top: 50px;
+    }
+    
+    .lifd{
+    position: relative;
+      top: 65px;
+      width: 280px;
+      font-size: 20px;
+    }
+    
+    .liff{
+      position: relative;
+      top: 75px;
+      right: 10px;
+      width: 280px;
+    }
+    
+    .lifg{
+      position: relative;
+      top: 120px;
+      right: 10px;
+      width: 130px;
+    }
+    
+    .lifh{
+      position: relative;
+      top: 95px;
+      right: 170px;
+      width: 150px;
+    }
+    
+    
+    .lifj{
+      position: relative;
+      right: 40px;
+      top: 135px;
+      border: none;
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 30px;
+    }
+    
+    .lifj:hover{
+    background: var(--hover-color);
+    color: var(--navber-background);
+    box-shadow: 0 0 5px 5px var(--navber-background);
+    }
+    
+    /*  */
+    .hrt{
+      border: 5px solid var(--goto-color);
+      position: relative;
+      bottom: -14rem;
+      width: 900px;
+      height: 0;
+      right: 25rem;
+    }
+
+    /*  1*/
+    .pg{
+      display: flex;
+      position: relative;
+      left: -16.5rem;
+      width: 450px;
+    }
+
+    .uvr{
+      position: relative;
+      bottom: -14rem;
+      right: 29rem;
+      width: 200px;
+      color: var(--tit-color);
+    }
+    /*  */
+  
+    .hq{
+      width:300px ;
+      height:500px;
+       border:3px solid var(--goto-color);
+       position: relative;
+       right: -8rem;
+     top: 21rem;
+       cursor: pointer;
+    }
+    
+  .hq:hover{
+      box-shadow: 0 0 7px 7px var(--goto-color);
+    }
+  
+    .hq{
+      color: var(--tit-color);
+    }
+  
+    .aio img{
+      width: 80%;
+      height: 175px;
+      position: relative;
+      right: 30px;
+      top: 50px;
+      }
+      
+    .aimq{
+        position: relative;
+        right: 5px;
+        top: 60px;
+        font-size: 18px;
+        width: 290px;
+      }
+      
+      .aam{
+        position: relative;
+        right: 5px;
+        top: 60px;
+        width: 290px;
+      }
+      
+      .be{
+        position: relative;
+        right: 10px;
+        top: 80px;
+      }
+      .wcm{
+        position: relative;
+        right: 190px;
+        top: 55px;
+      }
+      .bathg{
+        position: relative;
+        right: 120px;
+        top: 30px;
+      }
+      .jtg{
+        position: relative;
+        right: 40px;
+        top: 37px;
+        border: none;
+        background-color: var(--goto-color);
+        color: var(--finl-color);
+        cursor: pointer;
+        outline: none;
+        width: 200px;
+        height: 30px;
+      }
+      
+      .jtg:hover{
+      background: var(--hover-color);
+      color: var(--navber-background);
+      box-shadow: 0 0 5px 5px var(--navber-background);
+      }
+      
+      /*  */
+  
+      .faj{
+        width:300px ;
+        height:500px;
+         border:3px solid var(--goto-color);
+         position: relative;
+         right: -6rem;
+     top: 21rem;
+         cursor: pointer;
+      }
+      
+      .faj:hover{
+        box-shadow: 0 0 7px 7px var(--goto-color);
+      }
+      
+      .fsj{
+        color: var(--tit-color);
+      }
+      
+      
+      .fdd img{
+        width: 80%;
+        height: 175px;
+      position: relative;
+      right: 30px;
+      top: 50px;
+      }
+      
+      .ffj{
+      position: relative;
+      top: 60px;
+      font-size: 20px;
+      }
+      
+      .fgj{
+        position: relative;
+        top: 70px;
+        width: 290px;
+      }
+      .fnj{
+        position: relative;
+        top: 100px;
+        right: 20px;
+      }
+      
+      .wcn{
+        position: relative;
+        top: 76px;
+        right: 190px;
+      }
+      .bath{
+        position: relative;
+        top: 50px;
+        right: 130px;
+        width: 100px;
+      }
+      
+      .fkj{
+        position: relative;
+        right: 40px;
+        top: 57px;
+        border: none;
+        background-color: var(--goto-color);
+        color: var(--finl-color);
+        cursor: pointer;
+        outline: none;
+        width: 200px;
+        height: 30px;
+      }
+      
+      .fkj:hover{
+      background: var(--hover-color);
+      color: var(--navber-background);
+      box-shadow: 0 0 5px 5px var(--navber-background);
+      }
+  
+      /*  */
+      
+      .la{
+        width:300px ;
+        height:500px;
+        border:3px solid var(--goto-color);
+         position: relative;
+         right: -4rem;
+         top: 21rem;
+         cursor: pointer;
+      }
+      
+      .la:hover{
+        box-shadow: 0 0 7px 7px var(--goto-color);
+      }
+      
+      .ls{
+        color: var(--tit-color);
+      }
+      
+      
+      
+      .ld img{
+        width: 80%;
+        height: 175px;
+        position: relative;
+      right: 30px;
+      top: 50px;
+      }
+      
+      .lf{
+      position: relative;
+        top: 70px;
+        width: 280px;
+        font-size: 20px;
+      }
+      
+      .lg{
+        position: relative;
+        top: 90px;
+        right: 10px;
+        width: 280px;
+      }
+      
+      .lh{
+        position: relative;
+        top: 120px;
+        right: 10px;
+        width: 130px;
+      }
+      
+      .lij{
+        position: relative;
+        top: 100px;
+        right: 200px;
+        width: 150px;
+      }
+      
+      .bat{
+        position: relative;
+        top: 70px;
+        right: 120px;
+        width: 150px;
+      }
+      
+      .lik{
+        position: relative;
+        right: 40px;
+        top: 140px;
+        border: none;
+        background-color: var(--goto-color);
+        color: var(--finl-color);
+        cursor: pointer;
+        outline: none;
+        width: 200px;
+        height: 30px;
+      }
+      
+      .lik:hover{
+      background: var(--hover-color);
+      color: var(--navber-background);
+      box-shadow: 0 0 5px 5px var(--navber-background);
+      }
+
+/*  */
+
+footer {
+  
+  color: var(--tit-color); 
+  padding: 5px;
+  border:3px solid var(--goto-color);
+  border-radius: 20px;
+  text-align: center; 
+position: relative;
+top: 2rem; 
+right: 27rem;
+width: 850px;
+height: 100px;
+
+}
+.fot{
+  position: relative;
+  top: 450px;
+}
+
+
+h1 {
+  font-size: 23px; 
+  margin-bottom: 10px; 
+
+}
+
+p {
+  font-size: 18px; 
+}
+
+.lhud{
+  position: relative;
+  left: 10px;
+  top: 27px;
+  width: 150px;
+}
+.wfhph{
+  position: relative;
+  left: 190px;
+  top: -12px;
+}
+
+.lshx{
+position: relative;
+left: 30px;
+top: -40px;
+}
+.hgprr{
+  position: relative;
+  right: 500px;
+  top: -65px;
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+      @media only screen and (max-width: 767px) {
+
+
+        .section {
+          display: flex;
+  flex-direction: column;
+        }
+      
+
+        .tye img {
+          width: 100%; 
+          height: auto; 
+          position: relative; 
+          right: auto;
+          top: -150px;
+          opacity: 1; 
+        }
+      
+  
+        .circle, .circler, .circlet {
+      position: relative;
+          width: 100%;
+          text-align: center;
+          right: 0; 
+          bottom: 250px; 
+        }
+      
+        .hglgs .htqgs{
+          position: relative;
+          right:100px;
+          top: 0px;
+        }
+      
+        .hglgs {
+          position: relative;
+          flex-direction: column;
+          right: 0; 
+          top: -100px; 
+        }
+      
+      
+        .hqws,  .lifas {
+          position: relative;
+          width: 100%;
+          right: 0; 
+          top: 0; 
+        }
+        .fdjas{
+          position: relative;
+          width: 100%;
+          right: 0; 
+          top: 0; 
+        }
+        .fdjhs{
+          position: relative;
+          top:60px;
+        }
+        .wcf{
+          position: relative;
+          top: 55px;
+          left: 10px;
+        }
+      
+        .fdjgs{
+          position: relative;
+          top: 80px;
+          left: 10px;
+        }
+
+        .pgh {
+          flex-direction: column;
+        }
+      
+      
+         .fdja, .lifa {
+        position: relative;
+          width: 100%;
+          right: 0; 
+          bottom: 0;
+        }
+        .hqw{
+          position: relative;
+          width: 100%;
+          right: 0px;
+          top: -10px;
+        }
+      
+        .hro {
+        position: relative;
+        top: -50px;
+          width: 100%;
+          right: 0; 
+        }
+      
+        
+        .uvre {
+          position: relative;
+          top: -30px;
+          right: 0; 
+        }
+
+         .hrt{
+          position: relative;
+          top:50px ;
+          right: 0;
+          width: 100%;
+         }
+
+        .pg #that{
+            position: relative;
+            right: 0;
+            top: 50px;
+            width: 150px;
+          }
+
+          /*  */
+          .hq{
+            position: relative;
+            width: 100%;
+            right: 0; 
+            bottom: -180px;
+          }
+    
+      .faj{
+        position: relative;
+        width: 100%;
+        right: -300px; 
+        bottom: -700px;
+      }
+
+      .la{
+        position: relative;
+        width: 100%;
+        right: -600px; 
+        bottom: -1250px;
+      }
+    
+
+      .fot{
+        position: relative;
+        top: 1300px;
+        right: 0;
+        width: 80%; /* تمتد القدم بالعرض الكامل */
+        height: auto; /* يتم ضبط الارتفاع تلقائيًا حسب المحتوى */
+      }
+
+      .lhud {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+    
+      .wfhph {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+    
+      .lshx {
+        position: relative;
+        left: 0;
+        top: 0;
+      }
+    
+      .hgprr {
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%; /* تمتد النص بالعرض الكامل */
+        text-align: center; /* يتم وسط النص أفقيًا */
+      }
+    
+
+/*  */
+      }

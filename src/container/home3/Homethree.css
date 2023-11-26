@@ -1,0 +1,1071 @@
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+.try img{
+  width: 76.9%;
+  height: 45%;
+  position: absolute;
+  right: 19.4rem;
+  top: 0px;
+  opacity: 0.4;
+}
+
+
+.circlea {
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%; /* يجعل العنصر دائريًا */
+  text-align: center;
+  background-color: var(--goto-color);
+  color: var(--finl-color);
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  right: 70rem;
+    top: 7rem;
+}
+.circlea:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+.circles{
+  width: 120px;
+  height: 120px;
+  
+  border-radius: 50%; /* يجعل العنصر دائريًا */
+  text-align: center;
+  background-color: var(--goto-color);
+  color: var(--finl-color);
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  right: 50rem;
+  top: -1rem;
+}
+.circles:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+.circled{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* يجعل العنصر دائريًا */
+  text-align: center;
+  background-color: var(--goto-color);
+  color: var(--finl-color);
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  right: 30rem;
+    top: -8rem;
+}
+.circled:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+.pen{
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+
+
+.pena{
+  text-align: center;
+  position: relative;
+  top: 5px;
+  right: 15px;
+  width: 50px;
+}
+
+/*  */
+
+
+
+.ten{
+  display: flex;
+  position: relative;
+  left: -17.5rem;
+  width: 450px;
+  }
+  
+  
+.tena{
+    position: relative;
+    right: 28rem;
+    top: -4rem;
+    font-size: 25px;
+    width: 350px;
+    height: 70px;
+    color: var(--tit-color);
+  }
+  
+  
+.tend{
+    width:350px ;
+    height:500px;
+     border:3px solid var(--goto-color);
+     position: relative;
+     right: -16rem;
+     top: 3rem;
+     cursor: pointer;
+  }
+  
+.tend:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+  
+.tenf{
+    color: var(--tit-color);
+  }
+  
+.teng img{
+  width: 80%;
+  height: 175px;
+  position: relative;
+  right: 30px;
+  top: 50px;
+  }
+  
+.tenh{
+    position: relative;
+    right: 30px;
+    top: 60px;
+    font-size: 18px;
+    width: 200px;
+  }
+  
+  .tenj{
+    position: relative;
+    right: 20px;
+    top: 70px;
+    width: 280px;
+  }
+  
+  .tenk{
+    position: relative;
+    right: 10px;
+    top: 100px;
+  }
+  .tenl{
+    position: relative;
+    right: 160px;
+    top: 75px;
+  }
+  
+  .tenz{
+    position: relative;
+    right: 40px;
+    top: 90px;
+    border: none;
+    background-color: var(--goto-color);
+    color: var(--finl-color);
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .tenz:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+  
+  
+  /*  */
+  
+  .nine{
+    width:300px ;
+    height:500px;
+     border:3px solid var(--goto-color);
+     position: relative;
+     right: -14rem;
+     top: 3rem;
+     cursor: pointer;
+  }
+  
+  .nine:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+  
+  .ninea{
+    color: var(--tit-color);
+  }
+  
+  
+  .nines img{
+    width: 80%;
+    height: 80%;
+  position: relative;
+  right: 30px;
+  top: 50px;
+  }
+  
+  .nined{
+  position: relative;
+  top: 60px;
+  font-size: 20px;
+  }
+  
+  .ninef{
+    position: relative;
+    top: 80px;
+    width: 280px;
+  }
+  .nineg{
+    position: relative;
+    top: 120px;
+    right: 20px;
+  }
+  
+  .nineh{
+    position: relative;
+    top: 95px;
+    right: 170px;
+  }
+  
+  .ninej{
+    position: relative;
+    right: 40px;
+    top: 111px;
+    border: none;
+    background-color: var(--goto-color);
+    color: var(--finl-color);
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .ninej:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+  
+  
+  
+  
+  /*  */
+  
+  .eight{
+    width:300px ;
+    height:500px;
+     border:3px solid var(--goto-color);
+     position: relative;
+     right: -11rem;
+     top: 3rem;
+     cursor: pointer;
+  }
+  
+  .eight:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+  
+  .eighta{
+    color: var(--tit-color);
+  }
+  
+  
+  
+  .eights img{
+    width: 80%;
+    height: 175px;
+    position: relative;
+  right: 30px;
+  top: 50px;
+  }
+  
+  .eightd{
+  position: relative;
+    top: 65px;
+    width: 280px;
+    font-size: 20px;
+  }
+  
+  .eightf{
+    position: relative;
+    top: 70px;
+    right: 10px;
+    width: 300px;
+  }
+  
+  .eightg{
+    position: relative;
+    top: 80px;
+    right: 10px;
+    width: 130px;
+  }
+  
+  .eighth{
+    position: relative;
+    top: 53px;
+    right: 170px;
+    width: 150px;
+  }
+  
+  
+  .eightj{
+    position: relative;
+    right: 40px;
+    top: 55px;
+    border: none;
+    background-color: var(--goto-color);
+    color: var(--finl-color);
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .eightj:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+  /*  */
+
+  .hrf{
+    border: 5px solid var(--goto-color);
+    position: relative;
+    top: 6rem;
+    width: 900px;
+    height: 0px;
+    right: 25rem;
+    
+  }
+
+  
+
+  /*  */
+
+  .sevn{
+    position: relative;
+    top: 4rem;
+    right: 48rem;
+    width: 200px;
+  }
+  /*  */
+.sevna{
+  display: flex;
+  position: relative;
+  top: 50px;
+  color: var(--tit-color);
+}
+
+  .sevnd{
+    width:300px ;
+    height:500px;
+     border:3px solid var(--goto-color);
+     position: relative;
+     right: -26rem;
+     top: 5rem;
+     cursor: pointer;
+  }
+  
+.sevnd:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+
+  .sevnf{
+    color: var(--tit-color);
+  }
+
+  .sevng img{
+    width: 80%;
+    height: 175px;
+    position: relative;
+    right: 30px;
+    top: 50px;
+    }
+    
+  .sevnh{
+      position: relative;
+      right: 30px;
+      top: 60px;
+      font-size: 18px;
+      width: 200px;
+    }
+    
+    .sevnj{
+      position: relative;
+      right: 5px;
+      top: 70px;
+      width: 280px;
+    }
+    
+    .sevnk{
+      position: relative;
+      right: 10px;
+      top: 100px;
+    }
+    .sevnl{
+      position: relative;
+      right: 160px;
+      top: 75px;
+    }
+    
+    .sevnz{
+      position: relative;
+      right: 40px;
+      top: 90px;
+      border: none;
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 30px;
+    }
+    
+    .sevnz:hover{
+    background: var(--hover-color);
+    color: var(--navber-background);
+    box-shadow: 0 0 5px 5px var(--navber-background);
+    }
+    
+    /*  */
+
+    .five{
+      width:300px ;
+      height:500px;
+       border:3px solid var(--goto-color);
+       position: relative;
+       right: -5rem;
+       top: -26.2rem;
+       cursor: pointer;
+    }
+    
+    .five:hover{
+      box-shadow: 0 0 7px 7px var(--goto-color);
+    }
+    
+    .fivea{
+      color: var(--tit-color);
+    }
+    
+    
+    .fives img{
+      width: 80%;
+      height: 175px;
+    position: relative;
+    right: 30px;
+    top: 50px;
+    }
+    
+    .fived{
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+    }
+    
+    .fivef{
+      position: relative;
+      top: 70px;
+      width: 280px;
+    }
+    .fiveg{
+      position: relative;
+      top: 100px;
+      right: 20px;
+    }
+    
+    .fiveh{
+      position: relative;
+      top: 75px;
+      right: 170px;
+    }
+    
+    .fivej{
+      position: relative;
+      right: 40px;
+      top: 85px;
+      border: none;
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 30px;
+    }
+    
+    .fivej:hover{
+    background: var(--hover-color);
+    color: var(--navber-background);
+    box-shadow: 0 0 5px 5px var(--navber-background);
+    }
+
+    /*  */
+    
+    .theera{
+      width:300px ;
+      height:500px;
+       border:3px solid var(--goto-color);
+       position: relative;
+       right: 16rem;
+       top: -57.5rem;
+       cursor: pointer;
+    }
+    
+    .theera:hover{
+      box-shadow: 0 0 7px 7px var(--goto-color);
+    }
+    
+    .theers{
+      color: var(--tit-color);
+    }
+    
+    
+    
+    .theerd img{
+      width: 80%;
+      height: 175px;
+      position: relative;
+    right: 30px;
+    top: 50px;
+    }
+    
+    .theerf{
+    position: relative;
+      top: 65px;
+      width: 280px;
+      font-size: 20px;
+    }
+    
+    .theerg{
+      position: relative;
+      top: 75px;
+      right: 10px;
+      width: 280px;
+    }
+    
+    .theerh{
+      position: relative;
+      top: 120px;
+      right: 10px;
+      width: 130px;
+    }
+    
+    .theerj{
+      position: relative;
+      top: 95px;
+      right: 170px;
+      width: 150px;
+    }
+    
+    
+    .theerk{
+      position: relative;
+      right: 40px;
+      top: 115px;
+      border: none;
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 30px;
+    }
+    
+    .theerk:hover{
+    background: var(--hover-color);
+    color: var(--navber-background);
+    box-shadow: 0 0 5px 5px var(--navber-background);
+    }
+    
+    /*  */
+    .hrv{
+      border: 5px solid var(--goto-color);
+      position: relative;
+      bottom: 51rem;
+      width: 900px;
+      height: 0;
+      right: 25rem;
+    }
+
+    /*  1*/
+  
+    .plus{
+      position: relative;
+      bottom: 720px;
+      right: 500px;
+      width: 600px;
+      height:0px;
+    }
+  
+
+    .plusa{
+      position: relative;
+      text-align: center;
+      bottom: 5rem;
+      right: 5rem;
+      color: var(--tit-color);
+    }
+
+.plusss{
+  position: relative;
+  bottom: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--tit-color);
+}
+
+    .pluss{
+      position: relative;
+      bottom: 50px;
+      right: 200px;
+      border: none;
+      box-shadow: 0 5px 5px 0 var(--navber-background);
+      background-color: var(--hover-color);
+      outline: none;
+      width: 300px;
+    }
+    .pluss:hover{
+      box-shadow: 0 0 1px 1px var(--navber-background);
+    }
+
+
+    .plusdd{
+      position: relative;
+      bottom: -20px;
+      left: 440px;
+      font-weight: bold;
+      font-size: 18px;
+      color: var(--tit-color);
+    }
+    .plusd{
+      border: none;
+      box-shadow: 0 5px 5px 0 var(--navber-background);
+      outline: none;
+      position: relative;
+      background-color: var(--hover-color);
+      right: 330px;
+      bottom: 30px;
+      width: 300px;
+    }
+    .plusd:hover{
+      box-shadow: 0 0 1px 1px var(--navber-background);
+    }
+
+    .plusff{
+      position: relative;
+      bottom: -45px;
+      left: 310px;
+      font-weight: bold;
+      font-size: 18px;
+      color: var(--tit-color);
+    }
+
+    .plusf{
+      border: none;
+      box-shadow: 0 5px 5px 0 var(--navber-background);
+      background-color: var(--hover-color);
+      outline: none;
+      position: relative;
+      right: 330px;
+      width: 300px;
+      top: -5px;
+    }
+    .plusf:hover{
+      box-shadow: 0 0 1px 1px var(--navber-background);
+    }
+
+
+    .plusgg{
+      position: relative;
+      top: 70px;
+      left: 310px;
+      font-weight: bold;
+      font-size: 18px;
+      color: var(--tit-color);
+    }
+
+    .plusg{
+      border: none;
+      box-shadow: 0 5px 5px 0 var(--navber-background);
+      background-color: var(--hover-color);
+      outline: none;
+      position: relative;
+      right: 330px;
+      width: 300px;
+      top: 20px;
+    }
+    .plusg:hover{
+      box-shadow: 0 0 1px 1px var(--navber-background);
+    }
+
+
+    .plushh{
+      position: relative;
+      top: 110px;
+      left: 310px;
+      font-weight: bold;
+      font-size: 18px;
+      color: var(--tit-color);
+    }
+
+    .plush{
+      border: none;
+      box-shadow: 0 5px 5px 0 var(--navber-background);
+      background-color: var(--hover-color);
+      outline: none;
+      position: relative;
+      right: 330px;
+      width: 300px;
+      top: 50px;
+    }
+    .plush:hover{
+      box-shadow: 0 0 1px 1px var(--navber-background);
+    }
+
+    .plusjj{
+      position: relative;
+      top: 140px;
+      left: 310px;
+      font-weight: bold;
+      font-size: 18px;
+      color: var(--tit-color);
+    }
+
+    .plusj{
+      border: none;
+      box-shadow: 0 5px 5px 0 var(--navber-background);
+      background-color: var(--hover-color);
+      outline: none;
+      position: relative;
+      right: 330px;
+      width: 300px;
+      top: 90px;
+    }
+    .plusj:hover{
+      box-shadow: 0 0 1px 1px var(--navber-background);
+    }
+
+
+    .pluskk{
+      position: relative;
+      top: 170px;
+      left: 310px;
+      font-weight: bold;
+      font-size: 18px;
+      color: var(--tit-color);
+    }
+
+    .plusk{
+      border: none;
+      box-shadow: 0 5px 5px 0 var(--navber-background);
+      background-color: var(--hover-color);
+      outline: none;
+      position: relative;
+      right: 330px;
+      width: 300px;
+      top: 120px;
+    }
+    .plusk:hover{
+      box-shadow: 0 0 1px 1px var(--navber-background);
+    }
+
+
+    .plusll{
+      position: relative;
+      top: 200px;
+      left: 310px;
+      font-weight: bold;
+      font-size: 18px;
+      color: var(--tit-color);
+    }
+
+    .plusl{
+      border: none;
+      box-shadow: 0 5px 5px 0 var(--navber-background);
+      background-color: var(--hover-color);
+      outline: none;
+      position: relative;
+      right: 330px;
+      width: 300px;
+      top: 130px;
+    }
+    .plusl:hover{
+      box-shadow: 0 0 1px 1px var(--navber-background);
+    }
+
+    .plusz{
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      outline: none;
+      cursor: pointer;
+      border: none;
+      position: relative;
+      top: 250px;
+      left: 150px;
+      width: 150px;
+      height: 40px;
+    }
+
+    .plusz:hover{
+      background: var(--hover-color);
+      color: var(--navber-background);
+      box-shadow: 0 0 5px 5px var(--navber-background);
+    }
+
+    .plusx{
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      outline: none;
+      cursor: pointer;
+      border: none;
+      position: relative;
+      top: 200px;
+      left: -470px;
+      width: 150px;
+      height: 40px;
+    }
+    .plusx:hover{
+      background: var(--hover-color);
+      color: var(--navber-background);
+      box-shadow: 0 0 5px 5px var(--navber-background);
+    }
+
+/*  */
+
+footer {
+  
+  color: var(--tit-color); 
+  padding: 5px;
+  border:3px solid var(--goto-color);
+  border-radius: 20px;
+  text-align: center; 
+position: relative;
+top: 2rem; 
+right: 27rem;
+width: 830px;
+height: 100px;
+
+}
+
+
+
+h1 {
+  font-size: 23px; 
+  margin-bottom: 10px; 
+
+}
+
+p {
+  font-size: 18px; 
+}
+
+.lhud{
+  position: relative;
+  left: 10px;
+  top: 27px;
+  width: 150px;
+}
+.wfhph{
+  position: relative;
+  left: 190px;
+  top: -12px;
+}
+
+.lshx{
+position: relative;
+left: 30px;
+top: -40px;
+}
+.hgprr{
+  position: relative;
+  right: 500px;
+  top: -65px;
+  width: 300px;
+}
+
+
+
+/*  */
+
+@media only screen and (max-width: 767px) {
+  .section {
+    display: flex;
+flex-direction: column;
+  }
+  
+  
+  .try img {
+    width: 100%; 
+    height: auto; 
+    position: relative; 
+    right: auto;
+    top: -150px;
+    opacity: 1; 
+  }
+
+  .circlea,
+  .circles,
+  .circled {
+    position: relative;
+        width: 100%;
+      text-align: center;
+      right: 0; 
+      bottom: 250px; 
+  }
+
+  .pen{
+  text-align: center;
+  }
+    .pena{
+      text-align: center;
+      position: relative;
+      right: 150px;
+    } 
+
+  .ten {
+    flex-direction: column;
+  }
+
+  .tena {
+    position: relative;
+    right: 0;
+    top: -80px;
+  }
+
+  .tend{
+    position: relative;
+          width: 100%;
+          right: 0; 
+          top: 0; 
+  }
+
+  .nine{
+    position: relative;
+          width: 100%;
+          right: 0; 
+          top: 0; 
+  }
+
+  .nineg{
+    position: relative;
+    right: 0px;
+    top: 90px;
+  }
+  .nineh{
+    position: relative;
+    top: 65px;
+  }
+
+  .ninej{
+    position: relative;
+    top: 70px;
+  }
+
+
+  .eight{
+    position: relative;
+          width: 100%;
+          right: 0; 
+          top: 0; 
+  }
+
+  .hrf{
+    position: relative;
+    top: 50px;
+      width: 100%;
+      right: 0; 
+  }
+
+.sevna{
+  position: relative;
+  top: 0px;
+  right: -800px; 
+}
+
+.sevnd{
+  position: relative;
+          width: 150%;
+          right: -800px; 
+          top: 0; 
+}
+
+.five{
+  position: relative;
+  width: 150%;
+  right: -800px; 
+  top: 0; 
+}
+
+.theera{
+  position: relative;
+  width: 150%;
+  right: -800px; 
+  top: 0; 
+}
+
+.hrv{
+  position: relative;
+  top: 80px;
+    width: 100%;
+    right: 0; 
+}
+
+.plus{
+  position: relative;
+  top: 200px;
+  right: -300px; 
+}
+
+.plusz{
+  position: relative;
+  right: -20px;
+}
+
+  .plusss, .plusdd, .plusff, .plusgg, .plushh, .plusjj, .pluskk, .plusll{
+    visibility: hidden;
+    opacity: 0;
+  }
+
+
+  footer {
+    position: relative;
+    top: 1000px;
+    right: 0;
+    width: 80%; /* تمتد القدم بالعرض الكامل */
+    height: auto; /* يتم ضبط الارتفاع تلقائيًا حسب المحتوى */
+  }
+
+  .lhud {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .wfhph {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .lshx {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .hgprr {
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%; /* تمتد النص بالعرض الكامل */
+    text-align: center; /* يتم وسط النص أفقيًا */
+  }
+
+
+}

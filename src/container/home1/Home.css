@@ -1,0 +1,963 @@
+  section{
+      display: flex;
+      flex-direction: column;
+  }
+
+
+
+  .rog img{
+    width: 76.8%;
+    height: 37%;
+    position: absolute;
+    right: 19.4rem;
+    top: 0rem;
+  }
+
+  .tit{
+    position: absolute;
+    right: 61rem;
+    width: 320px;
+    top: 5rem;
+    color: var(--you-color);
+    background: none;
+    font-size: 28px;
+  }
+
+  .bar{
+    background-color: var(--border-color);
+    position: relative;
+    left: -9.5rem;
+    top: 15.3rem;
+    text-align: center;
+    width: 73%;
+    height: 30%;
+    padding: 2rem;
+    margin: auto;
+
+  }
+
+  .aka{
+    color: var(--you-color);
+    position: relative;
+    bottom: 1.5rem;
+    left: -21rem;
+    width: 200px;
+    font-size: 25px;
+  }
+
+  .hra{
+    width:900px ;
+    height:110px;
+    border:2px solid var(--navber-background);
+    position: relative;
+    bottom:0.5rem;
+    left: 1rem;
+    
+  }
+
+  .btn{
+    text-align: start;
+    position: relative;
+    bottom: 1.5rem;
+    display: flex;
+    
+  }
+
+  .but{
+    background-color: var(--navber-background);
+    color: var(--hover-color);
+    position: relative;
+    width: 7%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.8rem;
+  }
+  .but:hover{
+    background: var(--hover-color);
+    color: var(--navber-background);
+    box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+  .ton{
+    position: relative;
+    right: 0.5rem;
+    background-color: var(--navber-background);
+    color: var(--hover-color);
+    width: 7%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.8rem;
+  }
+  .ton:hover{
+    background: var(--hover-color);
+    color: var(--navber-background);
+    box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+
+
+
+
+  .form{
+  width: 850px;
+  height: 100px;
+  position: relative;
+  right: 3.4rem;
+  bottom: 1.7rem;
+  }
+  .sea{
+      border: none;
+      box-shadow: 0 5px 5px 0 var(--navber-background);
+      background-color: var(--hover-color);
+      
+      position: relative;
+      left: 4.8rem;
+      bottom: 0rem;
+      outline: none;
+      width: 255px;
+      
+  }
+
+  .pro{
+    width: 100px;
+    border: none;
+    position: relative;
+    left: 5rem;
+    bottom: 0rem;
+    box-shadow: 0 5px 5px 0 var(--navber-background);
+  background-color: var(--hover-color);
+    outline: none;
+  }
+
+  .wco{
+    width: 100px;
+    border: none;
+    position: relative;
+    left: 4.5rem;
+    bottom: 0rem;
+    box-shadow: 0 5px 5px 0 var(--navber-background);
+    background-color: var(--hover-color);
+    outline: none;
+  }
+  .wcop{
+    width: 100px;
+    border: none;
+    position: relative;
+    left: 3.5rem;
+    bottom: 0rem;
+    box-shadow: 0 5px 5px 0 var(--navber-background);
+    background-color: var(--hover-color);
+    outline: none;
+  }
+
+  .rent{
+    box-shadow: 0 5px 5px 0 var(--navber-background);
+    background-color: var(--hover-color);
+    outline: none;
+    border: none;
+    position: relative;
+    right: -2.5rem;
+  }
+
+  .mon{
+    width: 200px;
+    border: none;
+    position: relative;
+    left: 2.3rem;
+    bottom: 0rem;
+    box-shadow: 0 5px 5px 0 var(--navber-background);
+    background-color: var(--hover-color);
+    outline: none;
+  }
+
+  .rch{
+    width: 100px;
+    height: 30px;
+    border: none;
+    position: relative;
+    left: 2rem;
+    bottom: 0rem;
+    background-color: var(--navber-background);
+    color: var(--hover-color);
+    outline: none;
+    cursor: pointer;
+  }
+  .rch:hover{
+    background: var(--hover-color);
+    color: var(--navber-background);
+    box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+
+  .zero{
+  display: flex;
+    
+    
+  }
+
+
+  .zeroa{
+    position: relative;
+    right: 46rem;
+    top: 17rem;
+    font-size: 25px;
+    width: 349px;
+    color: var(--tit-color);
+  }
+
+
+  .zeros{
+    width:300px ;
+    height:500px;
+    border:3px solid var(--goto-color);
+    position: relative;
+    right: 0rem;
+    top: 24rem;
+    cursor: pointer;
+  }
+
+  .zeros:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+
+  .zerod{
+    color: var(--tit-color);
+  }
+
+  .zerod img{
+  width: 80%;
+  height: 80%;
+  position: relative;
+  right: 30px;
+  top: 50px;
+  }
+
+  .zerof{
+    position: relative;
+    right: 30px;
+    top: 70px;
+    font-size: 18px;
+    width: 160px;
+  }
+
+  .zerog{
+    position: relative;
+    right: 110px;
+    top: 90px;
+  }
+
+  .zeroh{
+    position: relative;
+    right: 10px;
+    top: 110px;
+  }
+  .zeroj{
+    position: relative;
+    right: 150px;
+    top: 85px;
+  }
+
+  .zerok{
+    position: relative;
+    right: 40px;
+    top: 113px;
+    border: none;
+    background-color: var(--goto-color);
+    color: var(--finl-color);
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 50px;
+  }
+
+  .zerok:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+
+  /*  */
+
+  .four{
+    width:300px ;
+    height:500px;
+    border:3px solid var(--goto-color);
+    position: relative;
+    right: 2rem;
+    top: 24rem;
+    cursor: pointer;
+  }
+
+  .four:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+
+  .foura{
+    color: var(--tit-color);
+  }
+
+
+  .fours img{
+    width: 80%;
+    height: 80%;
+  position: relative;
+  right: 30px;
+  top: 50px;
+  }
+
+  .fourd{
+  position: relative;
+  top: 60px;
+
+  }
+
+  .fourf{
+    position: relative;
+    top: 80px;
+  }
+  .fourg{
+    position: relative;
+    top: 110px;
+    right: 80px;
+  }
+
+
+  .fourh{
+    position: relative;
+    top: 139px;
+    right: 40px;
+    border: none;
+    background-color: var(--goto-color);
+    color: var(--finl-color);
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 50px;
+  }
+
+  .fourh:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+
+
+
+
+  /*  */
+
+  .six{
+    width:300px ;
+    height:500px;
+    border:3px solid var(--goto-color);
+    position: relative;
+    right: 4rem;
+    top: 24rem;
+    cursor: pointer;
+  }
+
+  .six:hover{
+    box-shadow: 0 0 7px 7px var(--goto-color);
+  }
+
+  .sixa{
+    color: var(--tit-color);
+  }
+
+
+
+  .sixs img{
+    width: 80%;
+    height: 80%;
+    position: relative;
+  right: 30px;
+  top: 50px;
+  }
+
+  .sixd{
+  position: relative;
+    top: 90px;
+  }
+
+  .sixf{
+    position: relative;
+    top: 120px;
+    right: 100px;
+    width: 100px;
+  }
+
+  .sixg{
+    position: relative;
+    top: 154px;
+    right: 160px;
+    width: 130px;
+  }
+
+  .sixh{
+    position: relative;
+    top: 128px;
+    right: 15px;
+  }
+
+
+  .sixj{
+    position: relative;
+    top: 162px;
+    right: 40px;
+    border: none;
+    background-color: var(--goto-color);
+    color: var(--finl-color);
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 50px;
+  }
+
+  .sixj:hover{
+  background: var(--hover-color);
+  color: var(--navber-background);
+  box-shadow: 0 0 5px 5px var(--navber-background);
+  }
+  /*  */
+
+
+  .lotp{
+    position: relative;
+    right: 20rem;
+    top: 30rem;
+    box-shadow: 0 0 5px 5px var(--border-color);
+    width: 1000px;
+    height: 200px;
+  }
+
+    .lqhti{
+      text-align: center;
+      color: var(--tit-color);
+    }
+
+    .qwe{
+      position: relative;
+      font-size: 20px;
+      top: 20px;
+      right: 20px;
+      color: var(--tit-color);
+    }
+    .qwer{
+      position: relative;
+      right: 49rem;
+      top: -1rem;
+      border: none;
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 30px;
+    }
+    .qwer:hover{
+      background: var(--hover-color);
+      color: var(--navber-background);
+      box-shadow: 0 0 5px 5px var(--navber-background);
+      }
+    /*  */
+    .tyu{
+      position: relative;
+      font-size: 20px;
+      right: 20px;
+      top: 10px;
+      color: var(--tit-color);
+    }
+    .tyui{
+      position: relative;
+      right: 49rem;
+      top: -1.5rem;
+      border: none;
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 30px;
+    }
+    .tyui:hover{
+      background: var(--hover-color);
+      color: var(--navber-background);
+      box-shadow: 0 0 5px 5px var(--navber-background);
+      }
+    /*  */
+    .iop{
+    position: relative;
+      top: 0px;
+      right: 25px;
+      font-size: 20px;
+      color: var(--tit-color);
+    }
+    .iopa{
+      position: relative;
+      right: 49rem;
+      top: -2rem;
+      border: none;
+      background-color: var(--goto-color);
+      color: var(--finl-color);
+      cursor: pointer;
+      outline: none;
+      width: 200px;
+      height: 30px;
+    }
+    .iopa:hover{
+      background: var(--hover-color);
+      color: var(--navber-background);
+      box-shadow: 0 0 5px 5px var(--navber-background);
+      }
+  /*  */
+
+
+
+
+ .answer {
+    display: none;
+    color: var(--tit-color);
+    position: relative;
+    top: 36rem;
+    right: 23rem;
+    font-size: 13px;
+    width: 900px;
+    
+  }
+
+  .spt{
+  position: relative;
+  right: 49rem;
+  top: 35rem;
+
+  width: 200px;
+  color: var(--tit-color);
+  }
+
+  .faq .toggle-answer {
+    background-color: var(--border-color);
+    border: none;
+    text-align: right;
+    width: 70%;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 36rem;
+    right: 22rem;
+    font-size: 18px;
+  }
+
+  .faq .toggle-answer:focus + .answer {
+    display: block;
+    color: var(--tit-color);
+  }
+
+  /*  */
+
+  .google-map{
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    top: 115rem;
+    right: 22rem;
+  }
+
+
+/*  */
+
+  footer {
+  
+    color: var(--tit-color); 
+    padding: 5px;
+    border:3px solid var(--goto-color);
+    border-radius: 20px;
+    text-align: center; 
+  position: relative;
+  top: -2rem; 
+  right: 27rem;;
+  width: 850px;
+  height: 100px;
+  
+  }
+  
+  .fotr{
+    position: relative;
+    top: 1350px;
+  }
+  
+  
+  h1 {
+    font-size: 23px; 
+    margin-bottom: 10px; 
+  
+  }
+  
+  p {
+    font-size: 18px; 
+  }
+  
+  .lhud{
+    position: relative;
+    left: 10px;
+    top: 27px;
+    width: 150px;
+  }
+  .wfhph{
+    position: relative;
+    left: 190px;
+    top: -12px;
+  }
+  
+  .lshx{
+  position: relative;
+  left: 30px;
+  top: -40px;
+  }
+  .hgprr{
+    position: relative;
+    right: 500px;
+    top: -65px;
+    width: 300px;
+  }
+  
+
+
+  /*  */
+
+
+
+    @media only screen and (max-width: 767px) {
+      section {
+        flex-direction: column;
+        z-index: 0;
+    
+      }
+    
+      .rog img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        right: auto;
+        top: 0px;
+      }
+    
+      .tit {
+        position: absolute;
+        right: auto;
+        top: 130px;
+        font-size: 24px;
+      }
+    
+      .bar {
+        position: relative;
+        right: -30px;
+        top: 100px;
+        width: 90%;
+        padding: 1rem;
+      }
+    
+      .aka {
+        position: relative;
+        bottom: auto;
+        left: -80px;
+        font-size: 20px;
+      }
+    
+      .hra {
+        width: auto;
+        height: auto;
+        border: none;
+        position: relative;
+        bottom: auto;
+        left: auto;
+      }
+    
+      .btn {
+        text-align: start;
+        display: block;
+      }
+    
+      .but, .ton {
+        width: 20%;
+        position: relative;
+        right: auto;
+        top: -10px;
+        cursor: pointer;
+      }
+    
+      .form {
+        width: auto;
+        position: static;
+      }
+    
+      .sea, .pro, .wco, .wcop, .mon, .rent {
+        width: 90%;
+        position: static;
+        left: auto;
+        box-shadow: none;
+      }
+    
+      .rch {
+        width: 100%;
+        height: auto;
+        position: static;
+        left: auto;
+        cursor: pointer;
+      }
+    
+      .zeroa {
+        position: relative;
+        right: auto;
+        top: 120px;
+        font-size: 20px;
+      }
+    
+      .zero {
+        flex-direction: column;
+      }
+    
+      .zeros {
+        width: 100%;
+        height: auto;
+        border: none;
+        position: relative;
+        right: auto;
+        top: 150px;
+      }
+    
+      .zerod img {
+        width: 80%;
+        height: auto;
+        position: static;
+        right: auto;
+        top: auto;
+      }
+    
+      .zerof {
+        position: static;
+        right: auto;
+        top: auto;
+        font-size: 16px;
+      }
+    
+      .zerog, .zeroh, .zeroj {
+        position: relative;
+        right: auto;
+        top: auto;
+      }
+    
+      .zerok {
+        width: 80%;
+        height: auto;
+        position: static;
+        right: auto;
+        cursor: pointer;
+      }
+    
+      .four, .six {
+        width: 90%;
+        height: auto;
+        border: none;
+        position: relative;
+        right: auto;
+        top: 150px;
+        z-index: 0;
+      }
+    
+      .fours img {
+        width: 90%;
+        height: auto;
+        position: relative;
+        right: auto;
+        top: 20px;
+        z-index: 0;
+      }
+    
+      .fourd, .fourf, .fourg, .fourh {
+        position: relative;
+        top: 20px;
+        right: auto;
+        z-index: 999;
+        z-index: 0;
+      }
+    
+      .fourh, .fourj {
+        width: 90%;
+        height: auto;
+        position: relative;
+        right: auto;
+        cursor: pointer;
+        z-index: 0;
+      }
+    
+      .sixd {
+        position: relative;
+        top: 50px;
+      }
+    
+      .sixf {
+        position: relative;
+        top: 50px;
+        right: 10px;
+      }
+    
+      .sixg {
+        position: relative;
+        top: 50px;
+        right: 10px;
+      }
+    
+      .sixh {
+        position: relative;
+        top: 25px;
+        right: 170px;
+      }
+    
+      .sixj {
+        width: 90%;
+        height: auto;
+        position: relative;
+        right: auto;
+        top: 40px;
+        cursor: pointer;
+      }
+    
+      .lotp {
+        right: 3px;
+        top: 230px;
+        position: relative;
+        width: 80%;
+        height: 250px;
+      }
+    
+      .lqhti, .qwe, .iop {
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        top: -3px;
+        right: 3px;
+      }
+    
+      .tyu {
+        position: relative;
+        right: 3px;
+        top: -3px;
+      }
+    
+      .iop {
+        position: relative;
+        right: 3px;
+      }
+    
+      .iopa {
+        position: relative;
+        left: -3px;
+        width: 80px;
+        top: 10%;
+      }
+    
+      .qwe {
+        position: relative;
+        right: 3px;
+        top: -2px;
+      }
+    
+      .qwer, .tyui, .iopa {
+        width: 100%;
+        height: auto;
+        right: 3px;
+        top: auto;
+        position: relative;
+        cursor: pointer;
+      }
+    
+      .faq {
+        display: block;
+        position: relative;
+        top: 250px;
+        left: 20px;
+        right: auto;
+        width: 93%;
+      }
+    
+      .question {
+        position: relative;
+        right: 15px;
+      }
+    
+      .faq .question .answer {
+        z-index: 1;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        width: 90%;
+      }
+    
+      .spt {
+        right: auto;
+        top: auto;
+        position: relative;
+        right: 150px;
+      }
+    
+      .faq .toggle-answer {
+        width: 100%;
+        position: static;
+        top: auto;
+        right: auto;
+      }
+    
+      .faq .toggle-answer:focus + .answer {
+        display: block;
+        color: var(--tit-color);
+        position: static;
+        top: auto;
+        right: auto;
+      }
+  
+      .google-map {
+      
+      width: 100px;
+      height: 100px;
+      position: relative;
+      top: 2440px;
+        right: 0px;
+    
+    }
+
+    .fotr{
+      position: relative;
+      top: 970px;
+      right: 0;
+      width: 80%; /* تمتد القدم بالعرض الكامل */
+      height: auto; /* يتم ضبط الارتفاع تلقائيًا حسب المحتوى */
+    }
+    .lhud {
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+  
+    .wfhph {
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+  
+    .lshx {
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+  
+    .hgprr {
+      position: relative;
+      right: 0;
+      top: 0;
+      width: 100%; /* تمتد النص بالعرض الكامل */
+      text-align: center; /* يتم وسط النص أفقيًا */
+    }
+  }
